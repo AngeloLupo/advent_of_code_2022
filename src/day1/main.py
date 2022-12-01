@@ -1,8 +1,8 @@
 def compute_calories(problem_input: str):
-    elfs = problem_input.split("\n\n")
+    elves = problem_input.split("\n\n")
     calories_sums = []
 
-    for elf in elfs:
+    for elf in elves:
         elf = elf.split("\n")
         calories = 0
         for snack in elf:
