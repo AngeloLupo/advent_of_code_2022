@@ -20,7 +20,7 @@ def two(calories_sums: list):
 
 
 if __name__ == "__main__":
-    problem_input = open("1/input").read()
+    problem_input = open("src/day1/input").read()
     calories_sum = compute_calories(problem_input)
 
     print(one(calories_sum))
